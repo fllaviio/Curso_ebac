@@ -1,7 +1,6 @@
 @use 'config/reset';
 @use 'config/variaveis';
 @use 'sass:math';
-@use 'sass:color';
 
 @mixin elementoForm() {
     padding: 8px;
@@ -71,7 +70,7 @@ header {
             color: #fff;
 
             &:hover {
-                background-color: color.adjust(variaveis.$corSecundaria, 15%);
+                background-color: lighten(variaveis.$corSecundaria, 15%);
             }
         }
     }
