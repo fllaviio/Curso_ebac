@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #cores.fundo;
+    background-color: #cores()[fundo];
 }
 
 li {
@@ -22,7 +22,7 @@ li {
 }
 
 header {
-    background-color: #cores.header;
+    background-color: #cores()[header];
     position: sticky;
     top: 0;
     left: 0;
@@ -45,7 +45,7 @@ header .container {
 }
 
 .menu li a {
-    color: #cores.texto;
+    color: #cores()[texto];
     text-decoration: none;
 }
 
@@ -69,8 +69,8 @@ section {
 
 .product-button {
     display: block;
-    background-color: #cores.botao;
-    color: #cores.texto;
+    background-color: #cores()[botao];
+    color: #cores()[texto];
     text-align: center;
     padding: 8px 0;
     border-radius: 8px;
@@ -79,7 +79,7 @@ section {
 }
 
 .product-button:hover {
-    background-color: #cores.botaoHover;
+    background-color: #cores()[botaoHover];
 }
 
 @media screen and (max-width: 1023px) {
